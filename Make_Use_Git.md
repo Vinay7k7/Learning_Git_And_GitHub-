@@ -64,7 +64,7 @@
 ##### But before moving to the push command you need to do some steps to our newly created repo in the github !
 
 #### F) --- Connect the github repo to the local using !
-		$ git add origin main https://github.com/Vinay7k7/Learning_Git_And_GitHub-.git
+		$ git remote add origin https://github.com/Vinay7k7/Learning_Git_And_GitHub-.git
 ##### The link is the newly created repo in the github !
 
 #### G) --- To verify if the new repo is in the local you can check that using !
