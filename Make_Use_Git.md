@@ -80,3 +80,14 @@
 #### J) --- Now we can puch the local repo to the github repo !
 		$ git push origin main
 ##### You can use `git push -u origin main` what this make is that when ever we are pushing the changes again after that we can just use `git push` this time !
+
+
+### 5) ----- Now we have made some changes in the files or a folder in the github(remote) then you need this changes to reflect in the local folder !
+#### There are two ways we can do this 
+
+#### A) --- First we can use the pull command to bring the changes from remote to the local !
+		$ git pull origin main
+#### B) --- If you need more control over what you commit to the local copy then you can follow this steps !
+		$ git fetch origin
+  		$ git merge origin/main
+#### This will have more controle over to you !
