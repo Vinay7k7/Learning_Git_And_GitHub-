@@ -66,7 +66,7 @@ folder to the staging place ! If you get any error like converting the LF to CRL
 ##### But before moving to the push command you need to do some steps to our newly created repo in the github !
 
 #### F) --- Connect the github repo to the local using !
-		$ git add origin main https://github.com/Vinay7k7/Learning_Git_And_GitHub-.git
+		$ git remote add origin https://github.com/Vinay7k7/Learning_Git_And_GitHub-.git
 ##### The link is the newly created repo in the github !
 
 #### G) --- To verify if the new repo is in the local you can check that using !
@@ -92,4 +92,26 @@ folder to the staging place ! If you get any error like converting the LF to CRL
 #### B) --- If you need more control over what you commit to the local copy then you can follow this steps !
 		$ git fetch origin
   		$ git merge origin/main
-#### This will have more controle over to you !
+> This will have more controle over to you !
+
+### 6) ----- Now we will work with the branch's concept in the git !
+#### A) --- You can know what branch you are in using !
+		$ git branch
+#### B) --- now you have to create a new branch while being in the main branch !
+		$ git checkout -b F1
+##### The `F1` is the new branch name !
+#### C) --- Now you can switch to the new branch using !
+		$ git checkout F1	
+#### D) --- If you want to change the name of the branch using !
+		$ git branch -M F1 F2
+#### E) --- You can delete the barnch that you have created !
+		$ git branch -d F1
+> Note:- You cannot delete the branch that you are currently on if you want to delete this branch you have to change to other branch abd delete this branch !
+
+#### F) --- You can merge the branch that you have created into the main branch using !
+	  	$ git checkout main
+		$ git diff F1
+		$ git merge F1
+##### There is an other way also by using pull Request in the Github !
+
+
