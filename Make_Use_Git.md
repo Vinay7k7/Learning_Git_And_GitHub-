@@ -31,8 +31,10 @@
 		$ git add file_Name
 #### 			`OR`
 		$ git add .
-##### This the `.` in the second command will move all the changes in the all the files in that folder to the staging place !
+##### This the `.` in the second command will move all the changes in the all the files in that 
+folder to the staging place ! If you get any error like converting the LF to CRLF you can run this !
 
+		$ git config --global core.autocrlf true
 #### B) --- Then you can verfy the what stage the chnages are in by using
 		$ git status
 
