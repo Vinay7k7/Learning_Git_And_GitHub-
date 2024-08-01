@@ -1,4 +1,4 @@
-# This is the `My_Git_intro !`
+# This is the `My_Git_Journey!`
 >  ^_____^  This is a vary basic notes on how to use the Git in your Life !
 
 ## There many ways to use the git !
